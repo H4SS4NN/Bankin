@@ -1,22 +1,18 @@
  si le fichier est déja telechargé via le mail que vous avez reçu passez a l'étape deux directement
 
-1. Cloner le dépôt :
-
-   git clone <repository-url>
-   cd <repository-directory>
 
 
-2. Installer les dépendances :
+1. Installer les dépendances :
 
    npm install
 
 
-3. Lancer le serveur :
+2. Lancer le serveur :
 
-   npm start
+   npm start ou alors node app.js 
    
 
-4. Le serveur sera accessible à l'adresse :
+3. Le serveur sera accessible à l'adresse :
    
    http://localhost:3000/accounts-info
    ```
