@@ -7,10 +7,6 @@
 
 2. Installer les dépendances :
 
-avant de faire cela supprimer les deux fichiers que j'ai oublier de add dans un gitignore ce sont node modules et package-lock.json
-
-rm -rf node_modules package-lock.json
-
    ```
    npm install
    ```
