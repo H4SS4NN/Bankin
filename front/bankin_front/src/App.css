@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #00213c;
+}
+
+.App-header {
+  background-color: #50baff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #00213c;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+.account-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.account-item td {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.account-item td:nth-child(1) {
+  width: 15vw;
+}
+
+.account-item td:nth-child(3) {
+  cursor: pointer;
+}
+
+.account-item td svg {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  background-color: #6562fd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button:hover {
+  background-color: #5551d3;
+}
+
+@media (max-width: 768px) {
+  .account-item {
+    align-items: flex-start;
+  }
+
+  .account-item td {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  button {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
+}
