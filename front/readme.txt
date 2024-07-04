@@ -1,25 +1,21 @@
-1. Cloner le dépôt :
-   ```
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
 
-2. Naviguer dans le répertoire frontend :
+
+1. Naviguer dans le répertoire frontend :
    ```
    cd bankin-app
    ```
 
-3. Installer les dépendances :
+2. Installer les dépendances :
    ```
    npm install
    ```
 
-4. Lancer l'application frontend :
+3. Lancer l'application frontend :
    ```
    npm run dev
    ```
 
-5. Ouvrir votre navigateur et naviguer vers :
+4. Ouvrir votre navigateur et naviguer vers :
    ```
    http://localhost:3000
    ```
