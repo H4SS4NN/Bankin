@@ -18,7 +18,7 @@
 
 4. Ouvrir votre navigateur et naviguer vers :
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ### Structure des fichiers :
